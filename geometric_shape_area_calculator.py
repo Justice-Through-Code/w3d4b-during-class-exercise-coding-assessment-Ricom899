@@ -6,21 +6,27 @@ def main():
     circle_pi = math.pi # DO NOT MODIFY, this line of code is assigning the variable 'circle_pi' equal to Pi ~3.14
 
     # TODO: In terminal, print Welcome to the geometric shape area calculator!
-    
+    print('Welcome to the geometric shape area calculator!')
     # User Options
     # Circle = 1
     # Rectangle = 2
     # Triangle = 3
-    
+    Circle = 1
+    Rectangle = 2
+    Triangle = 3
     # TODO: Using one print statement, use string concatenation to print the options only 
     # as a single string (make sure to add a space between each option)
-
+    print('circle' + ' ' + 'rectangle' + ' ' + 'triangle')
     # TODO: In terminal, ask the user "Select a shape by entering 1, 2, or 3' and assign the input to a new variable named 'choice'.
+    shape = input('Select a shape by entering 1, 2, or 3')
+    choice = shape
 
     # TODO: Convert the variable 'choice' to an integer data type.
+    int(choice)
 
     # TODO: With one line of code, verify the variable 'choice' is indeed the data type integer, use conditional logic and print the output.  If converted correctly, the output in Terminal should read 'True'.
-  
+    print(type(choice))
+
     if choice == 1:  #DO NOT REMOVE THE 'IF'
         # Calculate the area of a circle
 
